@@ -26,6 +26,22 @@ This repository contains the complete design, simulation, and analysis of a Type
   - Residual stiffness modeling after ply failure
 
 ---
+### ✅ Additional Insight:
+
+This ply-by-ply failure simulation of the carbon fiber/epoxy laminate confirms that the composite shell can **withstand internal pressures exceeding 700 bar**, as the **first ply failure occurs at approximately 918 MPa** of axial stress—well above the design threshold.
+
+To account for the **load-sharing with the aluminum liner**, a compensating equation was developed:
+
+![Load Sharing Equation](https://quicklatex.com/cache3/c2/ql_b70fa99730189ddb90d2fb2e926413c2_l3.png)
+
+Where:
+- `σ_total`: Total internal pressure (converted to equivalent axial stress)
+- `σ_aluminum`: Hoop stress taken by the aluminum liner
+- `t_al`, `t_composite`, `t_total`: Thicknesses of aluminum, composite, and total wall
+
+This formulation allowed for accurate estimation of the pressure **absorbed solely by the composite laminate**, validating its performance under realistic structural conditions.
+
+---
 
 ## 🛠️ Manufacturing Considerations
 
