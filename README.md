@@ -70,8 +70,6 @@ The figure below illustrates progressive ply failure in the composite laminate u
 
 ---
 
-## 📁 Folder Structure
-
 ## 🤝 Let's Connect
 
 If you're a recruiter or engineer interested in composites, energy storage, or structural simulation:
