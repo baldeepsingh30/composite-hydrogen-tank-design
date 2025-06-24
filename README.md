@@ -62,9 +62,9 @@ To account for the **load-sharing with the aluminum liner**, a compensating equa
 ![Load Sharing Equation](https://quicklatex.com/cache3/c2/ql_b70fa99730189ddb90d2fb2e926413c2_l3.png)
 
 Where:
-- \(\sigma_{\text{total}}\) = Total internal pressure (converted to equivalent axial stress)
-- \(\sigma_{\text{aluminum}}\) = Hoop stress taken by the aluminum liner
-- \(t_{\text{al}}, t_{\text{composite}}, t_{\text{total}}\) = Thicknesses of aluminum, composite, and total wall
+- `σ_total`: Total internal pressure (converted to equivalent axial stress)
+- `σ_aluminum`: Hoop stress taken by the aluminum liner
+- `t_al`, `t_composite`, `t_total`: Thicknesses of aluminum, composite, and total wall
 
 This formulation allowed for accurate estimation of the pressure **absorbed solely by the composite laminate**, validating its performance under realistic structural conditions.
 
