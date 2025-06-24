@@ -39,7 +39,8 @@ This repository presents the design, simulation, and analysis of a **Type III co
 The figure below illustrates progressive ply failure in the composite laminate under increasing axial strain:
 
 ![image](https://github.com/user-attachments/assets/2772fcca-f9bf-4a55-b205-3c438822a11e)
-[Uploading Trail7.m…]()
+
+---
 
 ### 🔎 Explanation:
 
@@ -75,8 +76,9 @@ The figure below illustrates progressive ply failure in the composite laminate u
 
 If you're a recruiter or engineer interested in composites, energy storage, or structural simulation:
 
-🔗 [LinkedIn](https://www.linkedin.com)  
+🔗 LinkedIn: (www.linkedin.com/in/baldeepsingh30)  
 📫 Email: baldeep@lakeheadu.ca
-📂 Full Project: [GitHub Repository Link]
+
+📂 Full Project: [GitHub Repository Link](https://github.com/baldeepsingh30/composite-hydrogen-tank-design.git)
 
 
