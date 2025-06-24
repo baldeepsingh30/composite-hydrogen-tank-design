@@ -53,6 +53,24 @@ The figure below illustrates progressive ply failure in the composite laminate u
 - This behavior confirms **safe load-sharing** among orientations and highlights laminate failure sequence under multi-axial stress.
 
 ---
+### ✅ Additional Insight:
+
+This ply-by-ply failure simulation of the carbon fiber/epoxy laminate confirms that the composite shell can **withstand internal pressures exceeding 700 bar**, as the **first ply failure occurs at approximately 918 MPa** of axial stress—well above the design threshold.
+
+To account for the **load-sharing with the aluminum liner**, a compensating equation was developed:
+
+\[
+\sigma_{\text{composite}} = \frac{\sigma_{\text{total}} - \sigma_{\text{aluminum}} \cdot \frac{t_{\text{al}}}{t_{\text{total}}}}{\frac{t_{\text{composite}}}{t_{\text{total}}}}
+\]
+
+Where:
+- \(\sigma_{\text{total}}\) = Total internal pressure (converted to equivalent axial stress)
+- \(\sigma_{\text{aluminum}}\) = Hoop stress taken by the aluminum liner
+- \(t_{\text{al}}, t_{\text{composite}}, t_{\text{total}}\) = Thicknesses of aluminum, composite, and total wall
+
+This formulation allowed for accurate estimation of the pressure **absorbed solely by the composite laminate**, validating its performance under realistic structural conditions.
+
+---
 
 ## 🛠️ Manufacturing Considerations
 
