@@ -59,9 +59,7 @@ This ply-by-ply failure simulation of the carbon fiber/epoxy laminate confirms t
 
 To account for the **load-sharing with the aluminum liner**, a compensating equation was developed:
 
-\[
-\sigma_{\text{composite}} = \frac{\sigma_{\text{total}} - \sigma_{\text{aluminum}} \cdot \frac{t_{\text{al}}}{t_{\text{total}}}}{\frac{t_{\text{composite}}}{t_{\text{total}}}}
-\]
+![Load Sharing Equation](https://quicklatex.com/cache3/c2/ql_b70fa99730189ddb90d2fb2e926413c2_l3.png)
 
 Where:
 - \(\sigma_{\text{total}}\) = Total internal pressure (converted to equivalent axial stress)
